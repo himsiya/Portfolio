@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         <nav>
+        <div class="left">
+             Portfolio
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="firstSection" id="home">
+        <div class="leftsec">
+            Hi, I am <span class="name">Siya</span>
+            <div>and I am very passionate about</div>
+            <span id="element"></span> 
+        </div>
+        <div class="rightsec">
+            <img src="image.png" alt="developerImage">
+        </div>
+    </section>
+    <hr>
+</section>
+    <section class="secondSection" id="about">
+        <h1>About Me</h1>
+        <div class="box1">
+            <div class="left_box">
+                <img src="laptop.png" alt="laptop-img">
+            </div>
+            <div class="right_box">
+                As a Computer science student with a keen interest in development, Coding, Problem solving. Currently studying at Uttaranchal University,dehradun. I have gained a strong foundation in computer science principles and practical skills.I am eager to continue expanding my knowledge and skills in the field of computer science. 
+            </div>
+        </div>
+       
+    </section >
+   <hr>
+
+    <section class="thirdSection">
+        <h1>Skills</h1>
+        <div class="horizontal">
+            <div class="vertical c">
+                <i class="fa-solid fa-c"></i>C language 
+            </div>
+            <div class="vertical inline Cplus">C++
+                <i class="fa-solid fa-c "></i>
+                <i class="fa-solid fa-plus "></i>
+                <i class="fa-solid fa-plus "></i>
+            </div>
+            <div class="vertical html"><i class="fa-brands fa-html5"></i>HTML</div>
+            <div class="vertical css "><i class="fa-brands fa-css3-alt"></i><div >CSS</div></div>
+            <div class="vertical js"><i class="fa-brands fa-js"></i>JavaScript</div>
+            <div class="vertical inline dsa">
+                <i class="fa-solid fa-d"></i>
+                <i class="fa-solid fa-s"></i>
+                <i class="fa-solid fa-a"></i>Data structure
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="forthSection" id="project">
+        <h1>My Projects</h1>
+        <ul class="list">
+            <li>
+                <div class="card">
+                    <div class="image">
+                        <img src="dental.jpg" alt="dental">
+                    </div>
+                    <div class="card_title">
+                        <h2>Dentist Appointment Site</h2>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="image">
+                        <img src="weather.jpg" alt="weather">
+                    </div>
+                    <div class="card_title">
+                        <h2>Weather Wizard</h2>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    <section>
+
+        <footer>
+            <div class="footer" id="contact">
+             <div class="links"><h2>Other Links</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>About me</li>
+                    <li>Projects</li>
+                </ul>
+             </div>   
+
+            
+             <div class="contect" id="contact" ><h2>Contact</h2>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> +91-7689-007-654</li>
+                    <li><i class="fa-regular fa-envelope"></i>  any@example.com</li>
+                </ul>
+                <div class="other-contacts">
+                    
+                    <span> <i class="fa-brands fa-linkedin"></i></span>
+                    <span></span><i class="fa-brands fa-github"></i></span>
+                    <span><i class="fa-brands fa-twitter">
+                    </i></span>
+                </div>
+             </div>
+            </div>
+        </footer>
+
+</main>
+   
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+<script>
+    var typed = new Typed('#element', {
+      strings: [' Artificial Intelligence','Coding','Problem-Solving','Web Development'],
+      typeSpeed: 50,
+    });
+
+  </script>  
+</body>
+</html>
